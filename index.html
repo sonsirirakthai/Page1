@@ -101,12 +101,13 @@
                 if(interestDOM[i].checked){
                 console.log(interestDOM[i].value);
                 contentHTML += '<li>' + interestDOM[i].value + '</li>';
+                }
             }
             contentHTML += '</ul>';
             console.log(contentHTML);
             let contentDOM=document.getElementById('NewContent');
             contentDOM.innerHTML=contentHTML;
-            }
+            
         }
         let thislinkDOM = document.getElementById('thislink');
         console.log(thislinkDOM.getAttribute('href'));
