@@ -42,7 +42,7 @@
     <div id = "mycontent">HTML ใหม่</div>
         
     </div>
-    <a href="thislink" href = "https://google.com" target="_blank">Google</a>
+    <a id="thislink" href = "https://google.com" target="_blank">Google</a>
     <script>
         console.log('Hello');
 
@@ -70,6 +70,7 @@
 
          function submitData(){
             console.log('ส่งข้อมูลเเล้ว');
+            btn.setAttribute('disabled','true')
          };
 
          function overItem(){
