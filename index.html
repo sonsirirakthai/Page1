@@ -42,7 +42,7 @@
     <div id = "mycontent">HTML ใหม่</div>
         
     </div>
-
+    <a href="thislink" href = "https://google.com" target="_blank">Google</a>
     <script>
         console.log('Hello');
 
@@ -107,6 +107,10 @@
             contentDOM.innerHTML=contentHTML;
             }
         }
+        let thislinkDOM = document.getElementById('thislink');
+        console.log(thislinkDOM.getAttribute('href'));
+        thislinkDOM.setAttribute('href', 'https://youtube.com');
+
 
     </script>
 </body>
